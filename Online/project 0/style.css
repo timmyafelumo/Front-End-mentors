@@ -1,0 +1,26 @@
+.box1 {
+    background-color: aquamarine;
+    width: 620px;
+    height: 500px;
+}
+
+.box2 {
+    background-color: plum;
+    width: 620px;
+    height: 500px;          
+}
+.box3 {
+    background-color: gray;
+    width: 450px;
+    height: 300px;          
+}
+.box4 {
+    background-color: gainsboro;
+    width: 450px;
+    height: 300px;          
+}
+p {
+    font-size: x-large;
+    color: blue;
+    font-style: italic;
+}
