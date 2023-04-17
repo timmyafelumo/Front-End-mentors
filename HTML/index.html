@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="THis is the in-house training session for intro to HTML">
+    <title>My Profile and Bio Page</title>
+  </head>
+
+  <body style="background-color: honeydew;">
+    <main>
+      <section>
+        <!--THIS IS A H ELEMENT-->
+        <h1>WELCOME TO MY BIO PAGE</h1>
+        <br/>
+      </section>
+      <section>
+        <h3><a href="./aboutme.html" target="_blank">About me</a></h3><br>
+        <!-- Linking to a section of the same page -->
+        <h3><a href="tech-section">Tech Section</a></h3>
+        <!--THIS IS AN IMAGE ELEMENT-->
+        <figure>
+          <img
+          src="./Assets/Images/Picture.jpeg" 
+          alt="my picture"
+          width="400"
+          height="400" title="This is me!"
+        
+        />
+          <figcaption>My picture</figcaption>
+        </figure>
+        
+        <!--THIS IS A P- ELEMENT-->
+        <p>
+          My name is <strong>Rotimi Afelumo</strong> , I am 6foot tall, black in complexion. <b>I am a
+            Nigerian</b>.<br />
+          I am a techprenueur.
+        </p>
+        <p>I love to teach coding and anything tech related.</p>
+        <!--THIS IS ANCHOR ELEMENT with nesting-->
+        <p>
+          Check me out on my
+          <a href="https://www.facebook.com/timmyafelumo" target="_blank">Social media pages</a></p>
+          <h4><em>My Hobbies</em></h4>
+          <ul>
+            <li>Sleeping</li>
+            <li>Movies</li>
+            <li>Games</li>
+            <li>Praying</li>
+          </ul>
+      </section>
+      <section>
+        <h3>My Family</h3>
+        <!--THIS IS AN IMAGE ELEMENT-->
+        <figure>
+          <img
+          src="./Assets/Images/DSC_0612.JPG" alt="my family" width="1000" height="600" title="My Family"/>
+          <figcaption>My Family</figcaption>
+        </figure>
+        
+        <!--THIS IS A P- ELEMENT-->
+        <p>
+          I am married to a lovely and wonderful wife. I call her General. She is
+          pretty and lovely to behold. <br />I consider her the most beautiful
+          woman on earth.
+        </p>
+        <p>
+          Theo and Chloe are the names of my two lovely kid. Theo, a boy, is 7
+          Years old and in grade 1.<br />
+          Chloe, his sister, is 4 years old and in PreKg
+        </p>
+      </section>
+      <section>
+        <h3>My Pet</h3>
+        <p>
+          I love cats. Generally becuase they are cute.<br/>
+          My cat's name is willy the poo!
+        </p>
+        <!--Wrapping a link on an image-->
+        <a href="https://www.pexels.com/search/cat/" target="_blank">
+          <img src="./Assets/Images/Dream.jpg" alt="My cute cat" width="400" height="400" title="MY CUTE CAT"/></a><p>
+          To see more cat photos, click on this
+          <a href="https://www.pexels.com/search/cat/" target="_blank">link</a></p>
+      <!--LIST-->
+      <!--Unordered list-->
+      <h4><i>Thing my pet loves</i></h4>
+      <ul>
+        <li>Laser Pointer</li>
+        <li>Wool</li>
+        <li>Lasagna</li>
+        <li>Playing</li>
+      </ul>
+      <!--Ordered list-->
+      <h4><em>Thing my pet hates</em></h4>
+      <ol>
+        <li>injection</li>
+        <li>Bathing</li>
+        <li>Other cats</li>
+        <li>jumping</li>
+      </ol>
+      </section>
+      <section>
+        <h3 style="background-color: aqua">Tech Consulting</h3>
+        <p id="tech-section">If you need tech integration service, you are in the right place</p>
+        <h4><em>List of services</em></h4>
+        <ul>
+         <li>Tech Infrastructure</li>
+         <li>Coding and Robotics</li>
+         <li>Tech integration</li>
+         <li>Professional Development Trainig</li>
+        </ul>
+        <!-- Adding Video -->
+        <h5 style="color: darkred;"><strong><u><i>Check out a Sample Video</i></u></strong></h5>
+        <video src="./Assets/Videos/Digital Awesomeness.mp4" controls height="1000" width="1000"></video>
+        <!-- Adding Audio -->
+        <h5 style="color: darkred;"><strong><u><i>Check out a Sample Audio</i></u></strong></h5>
+        <audio src="./Assets/Audio/cat-meow-14536.mp3" controls></audio>
+        <!-- Enable Resource -->
+        <h3>Download Center</h3>
+        <p>Please download more resources <a href="./Assets/Images/DSC_0612.JPG" download="">here</a></p>
+      </section>
+      <section>
+        <h3 style="background-color: aqua;">Request for Consultation</h3>
+        <form>
+          <fieldset>
+            <legend><b>Book and appointment with us</b></legend>
+            <label>Date</label>
+            <input type="datetime-local" placeholder="Date"/><br><br>
+            <label>First Name</label>
+            <input type="text" placeholder="Your Name"/><br><br>
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name"/><br><br>
+            <label>Date of Birth</label>
+            <input type="date" placeholder="DOB"/><br><br>
+            <label>Age</label>
+            <input type="number" placeholder="Age"/><br><br>
+            <label>Email</label>
+            <input type="email" placeholder="email address" required/><br><br>
+            <label>Mobile No</label>
+            <input type="tel" placeholder="Phone Number" required/><br><br>
+            <!-- <label>Date</label> -->
+            <input type="submit" value="Send"/><br><br>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
